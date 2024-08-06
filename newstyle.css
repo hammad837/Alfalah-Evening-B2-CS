@@ -1,0 +1,209 @@
+/* Custom CSS for the sidebar */
+.sidebar {
+    display: flex;
+  }
+  
+  .sidebar a {
+    margin-right: 15px; 
+    color: #333; 
+    text-decoration: none;
+    font-size: 18px; 
+  }
+  
+  .sidebar a:hover {
+    color: #007bff; /* Adjust the color on hover */
+  }
+  .text{
+    font-weight: bold;
+
+  }
+  .text1{
+    background-color: #C9D6E8;
+    font-weight: bolder;
+    color:#E1E8F2 ;
+  }
+  .text2{
+    margin: 0%;
+    padding: 0;
+    background-color: #456BA1;
+    text-align: center;
+  }
+  .button1 {
+    display: inline-block;
+    align-self: center;
+    
+    font-size: 25px;
+    text-decoration: none;
+    background-color:  #456BA1;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .button1:hover {
+    background-color: #C9D6E8;
+  }
+  /* about section css */
+  .textabt {
+    color: #333333;
+    text-align: center;
+    border: #456BA1;
+  }
+  
+  .hr-icon {
+    display: flex;
+    align-items: center;
+    color: #999; /* Adjust the color as needed */
+    margin: 0 10px;
+  }
+
+  .hr-icon hr {
+    flex: 1;
+    border: none;
+    height: 1px; /* Adjust the height of the horizontal line */
+    background-color: #999; /* Adjust the color of the horizontal line */
+  }
+  
+  .para2 {
+    background-color:#C9D6E8 ;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 30px;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .skills {
+    margin-top: 20px;
+  }
+  .skilltxt{
+    text-align: center;
+
+  }
+  
+  .button2-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .button2-list li {
+    margin-bottom: 10px;
+    background-color: #456BA1;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button2-list li:hover {
+    background-color: #C9D6E8;
+  }
+
+  /* contact us */
+
+  .contact-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #333333;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    border-radius: 5px;
+  }
+
+  .btn-primary {
+    background-color: #456BA1;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .btn-primary:hover {
+    background-color: #C9D6E8;
+  }
+
+  .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .social-icons i {
+    font-size: 30px;
+    margin: 0 10px;
+    color: #333333;
+    transition: color 0.3s ease;
+  }
+
+  .social-icons i:hover {
+    color: #0056b3;
+  }
+  /* Location Section */
+  .location-section {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  iframe {
+    width: 80%;
+    height: 400px; /* Adjust the height as needed */
+    border: 0;
+    border-radius: 5px; /* Remove border around the map */
+  }
+
+  /* fotter Section */
+  .fodder{
+    background-color: #456BA1;
+  }
+  .container-fluid {
+    padding: 40px 20px;
+  }
+  
+  .intro h3 {
+    color: #E1E8F2;
+  }
+  
+  .intro p {
+    font-size: 16px;
+    color: #E1E8F2;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 24px;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #C9D6E8;
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  @media (max-width: 768px) {
+    .intro h3 {
+      font-size: 24px;
+    }
+  
+    .intro p {
+      font-size: 14px;
+    }
+  }
+
+  
